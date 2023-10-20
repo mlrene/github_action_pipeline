@@ -5,8 +5,8 @@ on:
       - main
 
 env:
-  DOCKERHUB_REPOSITORY: mlrene/github_action
   IMAGE_NAME: v1
+  DOCKERHUB_REPOSITORY: mlrene/github_action
 jobs:
   build:
     runs-on: ubuntu-latest
